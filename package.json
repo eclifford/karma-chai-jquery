@@ -1,0 +1,34 @@
+{
+  "name": "karma-chai-jquery",
+  "description": "Chai Jquery for Karma",
+  "keywords": [
+    "karma",
+    "chai",
+    "jquery"
+  ],
+  "version": "0.1.0",
+  "author": "Eric Clifford <ericgclifford@gmail.com>",
+  "main": "./index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/eclifford/karma-chai-jquery",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eclifford/karma-chai-jquery.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eclifford/karma-chai-jquery/issues"
+  },
+  "scripts": {
+    "postinstall": "node ./node_modules/bower/bin/bower install"
+  },
+  "contributors": [
+    "Eric Clifford <ericgclifford@gmail.com>"
+  ],
+  "dependencies": {
+    "chai-jquery": "~1.1.2",
+    "bower": "~1.0.3"
+  },
+  "peerDependencies": {
+    "karma": "~0.10.0"
+  }
+}
