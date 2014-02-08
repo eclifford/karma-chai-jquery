@@ -25,7 +25,8 @@
     "Eric Clifford <ericgclifford@gmail.com>"
   ],
   "dependencies": {
-    "chai-jquery": "~1.1.2",
+    "chai-jquery": "~1.1.2"
+  "devDependencies": {
     "bower": "~1.0.3"
   },
   "peerDependencies": {
