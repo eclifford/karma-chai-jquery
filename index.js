@@ -5,8 +5,8 @@ var pattern = function(file) {
 };
 
 var framework = function(files) {
-  files.unshift(pattern(path.resolve(require.resolve('chai-jquery'))));
-  files.unshift(pattern(path.join(__dirname, 'bower_components/jquery/jquery.js')));
+  files.unshift(pattern(path.dirname(require.resolve('chai-jquery')) + '/chai-jquery.js'));
+  files.unshift(pattern(path.dirname(require.resolve('jquery')) + '/jquery.js'));
 };
 
 framework.$inject = ['config.files'];
