@@ -22,7 +22,7 @@ $ npm install --save-dev karma-chai-jquery
 module.exports = function(config) {
   'use strict';
   config.set({
-    frameworks: ['mocha', 'chai-jquery', 'chai'],
+    frameworks: ['mocha', 'chai', 'chai-jquery'],
     #...
   });
 }
