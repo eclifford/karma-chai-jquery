@@ -1,30 +1,22 @@
-karma-sinon-chai
-================
+# karma-chai-jquery
+> Chai-Jquery plugin for Karma Test Runner
 
-  * [Chai](http://chaijs.com)
+  * [Karma] (http://karma-runner.github.io)
   * [Chai-Jquery](https://github.com/chaijs/chai-jquery)
 
-for [Karma](http://karma-runner.github.io)
-
-Requirements
-------------
+## Requirements
 
 This Karma plugin requires Karma `~0.10.0`
 
-Special Thanks
-------------
-This plugin is heavily inspired by [karma-sinon-chai](https://github.com/kmees/karma-sinon-chai) plugin.
-
-Installation
-------------
+## Installation
 
 Install the module via npm
 
 ```sh
 $ npm install --save-dev karma-chai-jquery
 ```
-
-Add `chai-jquery` to the `frameworks` key in your Karma configuration. Note that this plugin does not add chai for you so it assumes you are already using something like `karma-chai` or `karma-sinon-chai`. Also because of Karma load order being reverse it's important that `chai-jquery` is loaded before `chai` or `sinon-chai` (which loads chai BTW).
+- `karma-chai-jquery` requires `jquery` which is included
+- `karma-chai-jquery` requires `chai` which is not included and recommended to be installed through `karma-chai` 
 
 ```js
 module.exports = function(config) {
