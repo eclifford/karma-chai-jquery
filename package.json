@@ -6,7 +6,7 @@
     "chai",
     "jquery"
   ],
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": "Eric Clifford <ericgclifford@gmail.com>",
   "main": "./index.js",
   "license": "MIT",
@@ -26,7 +26,6 @@
   "dependencies": {},
   "peerDependencies": {
     "karma": ">=0.10.x",
-    "jquery": "*",
     "chai-jquery": "*"
   }
 }

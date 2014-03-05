@@ -15,14 +15,14 @@ Install the module via npm
 ```sh
 $ npm install --save-dev karma-chai-jquery
 ```
-- `karma-chai-jquery` requires `jquery` which is included
+- `karma-chai-jquery` requires `jquery` which is not included and recommended to be installed through `karma-jquery`
 - `karma-chai-jquery` requires `chai` which is not included and recommended to be installed through `karma-chai` 
 
 ```js
 module.exports = function(config) {
   'use strict';
   config.set({
-    frameworks: ['mocha', 'chai', 'chai-jquery'],
+    frameworks: ['mocha', 'chai', 'chai-jquery', 'jquery-1.8.3'],
     #...
   });
 }
