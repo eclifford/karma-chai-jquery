@@ -22,9 +22,10 @@ $ npm install --save-dev karma-chai-jquery
 ```
 - `karma-chai-jquery` requires `jquery` which is not included and recommended to be installed through [karma-jquery](https://github.com/scf2k/karma-jquery).
 - `karma-chai-jquery` requires `chai` which is not included and recommended to be installed through [karma-chai](https://github.com/xdissent/karma-chai)
-- 
+
 
 ### Karma plugins load in reverse order so make sure that jquery and chai **come before** `chai-jquery`
+
 
 ```js
 module.exports = function(config) {
